@@ -536,7 +536,7 @@ int main(int argc, char **argv) {
             if(optusecreatetable) printf("DOUBLE PRECISION");
             break;
         case 'C':
-            if(optusecreatetable) printf("VARCHAR(%d)", fields[fieldnum].length);
+            if(optusecreatetable) printf("TEXT");
             break;
         case 'D':
             if(optusecreatetable) printf("DATE");
